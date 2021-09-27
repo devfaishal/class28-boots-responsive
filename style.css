@@ -1,0 +1,255 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+img{
+	max-width: 100%            ;
+}
+.min_div_bg{
+	background: #f7f9ff;
+}
+/* Header Style */
+.top_header .navbar-brand {
+	font-size: 23px;
+    font-weight: 500;
+}
+.top_header span {
+	display: inline-block;
+	background: #6278df;
+	color: #fff;
+	height: 43px;
+	width: 45px;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 28px;
+	position: relative;
+	top: 1px;
+}
+.top_menu .nav-link {
+	padding: 0 13px !important;
+}
+.slider_section{
+    background: url(https://mobirise.com/extensions/appamp/assets/images/mbr-10.jpg) no-repeat center center;
+	background-size: cover;
+    padding: 155px 0;
+	position: relative;
+	z-index: 1;
+}
+.slider_section::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -1;
+}
+.slider_caption h4 {
+	margin-bottom: 35px;
+	font-weight: 300;
+	font-size: 25px;
+}
+.slider_caption h2{
+    margin-bottom: 50px;
+    font-size: 45px;
+}
+.slider_caption .form-control {
+	padding: 15px 15px;
+	font-size: 16px;
+}
+.slider_caption .btn {
+	padding: 10px 20px;
+	background: #5ba533;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 600;
+}
+
+
+/* Counter Section */
+.number_counter .h2{
+	font-size: 55px;
+}
+.number_counter .p{
+	font-size: 23px;
+}
+
+/* About Section */
+.about_section{
+	background: #f7f9ff;
+}
+.about_section p {
+	font-size: 21px;
+	line-height: 30px;
+}
+.about_text_left{
+	margin-top: 120px;
+}
+
+/* Feature Section */
+.feature_header_text h1{
+	font-size: 45px;
+	font-weight: 400;
+}
+.feature_header_text h4 {
+	font-weight: 300;
+	color: #767676;
+}
+
+.feature_item {
+	height: 250px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+.left_img_sec {
+	width: 40%;
+	overflow: hidden;
+	border-radius: 5px 0 0 5px;
+}
+.left_img_sec img {
+	height: 100%;
+	width: auto !important;
+	max-width: inherit;
+	position: relative;
+	left: -107px;
+}
+.right_text_sec {
+	width: 60%;
+	padding: 16px;
+}
+.right_text_sec h4{
+	font-size: 22px;
+}
+.right_text_sec p {
+	font-size: 15px;
+	color: #767676;
+}
+
+/* Portfolio Item Hover */
+.portfolio_item a{
+	position: relative;
+	display: block;
+}
+.portfolio_item a::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(98, 121, 223, 0.7);
+	opacity: 0;
+	visibility: hidden;
+	transition: all .4s;
+}
+
+.portfolio_item:hover a::after{
+	opacity: 1;
+	visibility: visible;
+}
+
+/* Pricing Table */
+.pricing_item {
+	background: #fff;
+	padding: 40px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	border-radius: 5px;
+}
+.pricing_item h1 {
+	font-weight: bold;
+}
+.pricing_item h5 {
+	color: #767676;
+	font-size: 19px;
+	font-weight: 300;
+}
+.pricing_item ul{
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	margin-bottom: 45px;
+}
+.pricing_item ul li {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: #767676;
+	font-weight: 300;
+}
+.pricing_item ul li span {
+	color: #6278df;
+	font-size: 32px;
+	font-weight: bold !important;
+	width: 40px;
+	display: inline-block;
+}
+
+.pricing_item_btn a {
+	color: #657be0;
+	padding: 14px 30px;
+	font-size: 22px;
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+	border: transparent;
+	font-weight: 600;
+}
+
+
+/* Testimonial Section */
+.testimonial_item{
+	position: relative;
+}
+.testimonial_item span {
+	position: absolute;
+	top: 75px;
+	font-size: 60px;
+	color: #f0f0f0;
+}
+.author_info {
+	width: 220px;
+	margin: auto;
+}
+.author_info img {
+	width: 85px;
+	margin-right: 18px;
+}
+.user_ditails {
+	text-align: left;
+	position: relative;
+	top: 10px;
+}
+
+
+/* Team */
+.about_item{
+	margin-top: 90px;
+}
+.about_item .card img {
+	width: 130px;
+	height: auto;
+	margin-top: -70px;
+	margin-left: 15px;
+}
+
+/* Contact Section */
+.contact_form .card {
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+	padding: 30px;
+}
+input{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+textarea{
+	box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
+}
+
+
+/* Bottom Title */
+.bottom_title_section h1{
+	font-size: 50px;
+}
+.bottom_title_section a{
+	font-size: 20px;
+	font-weight: 600;
+}
+.bottom_title_section span{
+	font-weight: 500;
+}
